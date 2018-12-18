@@ -12,17 +12,6 @@
 
 </div>
 
-<div class="row">
-
-	<div class="col-lg-12">
-		<div class="page-header">
-			<h1>Instagram Feed</h1>
-		</div>
-	</div>
-
-
-</div>
-
 <?php
 
 //GET TOKEN
@@ -80,6 +69,7 @@ foreach ($obj['data'] as $post) {
 	echo "</div>";	
 }
 
+var_dump($obj);
 
 ?>
 
