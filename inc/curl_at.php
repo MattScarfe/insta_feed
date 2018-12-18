@@ -29,6 +29,7 @@
 	echo '<pre>'; // preformatted view
 	
 	// ecit directly the result
-	exit(print_r($result)); 
+	$accesstoken = (print_r($result->access_token)); 
+	var_dump($accesstoken);
 	
 	?>
