@@ -26,8 +26,6 @@ window.location.href='gettoken.php';
 </script>"; 
 }
 
-
-
 //DEFINE PHOTO COUNT
 $photo_count=9;
 
