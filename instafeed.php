@@ -15,9 +15,9 @@
 <?php
 
 //GET TOKEN
-if (isset($_GET['code'])) {
+if (isset($_GET['token'])) {
 	
-	$access_token=$_GET['code'];
+	$access_token=$_GET['token'];
 	
 } else {
 	echo "<script>
