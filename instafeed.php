@@ -15,9 +15,9 @@
 <?php
 
 //GET TOKEN
-if (isset($_GET['access_token'])) {
+if (isset($_GET['token'])) {
 	
-	$access_token=$_GET['access_token'];
+	$access_token=$_GET['token'];
 	
 } else {
 	echo "<script>
@@ -25,6 +25,7 @@ alert('Invalid Access Token Get Token. Click OK to get token.');
 window.location.href='gettoken.php';
 </script>"; 
 }
+
 
 
 //DEFINE PHOTO COUNT
