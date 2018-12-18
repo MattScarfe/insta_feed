@@ -11,7 +11,7 @@
 <body>
 <h1>Get Instagram Access Token</h1>
 
-<a href="https://api.instagram.com/oauth/authorize/?client_id=3b9fb7d0184048218f734a1d625f6ba9&redirect_uri=https://photofeed.essdesign.co.uk&response_type=code" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Get your Instagram token</a>
+<a href="https://api.instagram.com/oauth/authorize/?client_id=3b9fb7d0184048218f734a1d625f6ba9&redirect_uri=https://photofeed.essdesign.co.uk/gettoken.php&response_type=code" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Get your Instagram token</a>
 
 
 <div class="highlight-box">
