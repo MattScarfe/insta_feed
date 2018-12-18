@@ -65,10 +65,12 @@ $fields = array(
     return $result->access_token; //your token
 	
 	$access_token = $result->access_token;
-	
-echo "Result: " . var_dump($result) . "<br />";
-echo "Result -> Access Token: " . var_dump($result->access_token) . "<br />";
-echo "Result access_token: " . var_dump($access_token);
+
+var_dump($client_id);
+var_dump($client_secret);
+var_dump($result);
+var_dump($result->access_token);
+var_dump($access_token);
 
  ?>
 
