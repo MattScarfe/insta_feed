@@ -69,6 +69,9 @@ foreach ($obj['data'] as $post) {
 	echo "</div>";	
 }
 
+var_dump($access_token);
+var_dump($json_link);
+var_dump($json);
 var_dump($obj);
 
 ?>
