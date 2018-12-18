@@ -45,8 +45,8 @@ if (isset($_GET['code'])) {
 	echo '<pre>'; // preformatted view
 	
 	// ecit directly the result
-	$access_token = (print_r($result->access_token)); 
-	var_dump($access_token);
+	$access_token = $result->access_token;
+
 
 
 //DEFINE PHOTO COUNT
