@@ -1,7 +1,7 @@
 	<?php
 	
 	if (isset($_GET['code'])) {
-				$code = "'"$_GET['code']"'";
+				$code = $_GET['code'];
 	} else {
 				echo "Error-Parameter not set.";
 	}
