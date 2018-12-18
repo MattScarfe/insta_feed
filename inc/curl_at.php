@@ -13,7 +13,7 @@
 		'client_id' => '3b9fb7d0184048218f734a1d625f6ba9', 
 		'client_secret' => '61fc57c78bc747edbe2624067f8482ad', 
 		'grant_type' => 'authorization_code', 
-		'redirect_uri' => 'https://photofeed.essdesign.co.uk/instafeed.php', 
+		'redirect_uri' => 'https://photofeed.essdesign.co.uk/inc/curl_at.php', 
 		'code' => $code
 	];
 	$ch = curl_init();
